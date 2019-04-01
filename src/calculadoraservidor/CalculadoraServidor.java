@@ -76,7 +76,7 @@ class Calculadora extends Thread {
                 total = num1 * num2;
             }else if(signo1.equalsIgnoreCase("/")){
                 total = num1 / num2;   
-            }else if(signo1.equalsIgnoreCase("raiz")){
+            }else if(signo1.equalsIgnoreCase("r")){
                 if(num1<=-1){
                     System.out.println("No se puede calcular la raíz cuadrada de números negativos");
                 }else{
