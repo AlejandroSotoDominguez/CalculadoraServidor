@@ -46,7 +46,7 @@ class Calculadora extends Thread {
 
         try{
             byte[] mensaje = new byte[20];
-            byte[] signo = new byte[4];
+            byte[] signo = new byte[1];
             byte[] mensaje2 = new byte[20];
 
             //Leemos los dos números y el signo
